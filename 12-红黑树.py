@@ -406,7 +406,7 @@ print(data)
 for i in data:
     tree.add_node(RBNode(i))
 
-random.shuffle(data)
-for i in data:
-    print("unlink ", i)
-    tree.unlink_node(i)
+# random.shuffle(data)
+# for i in data:
+#     print("unlink ", i)
+#     tree.unlink_node(i)
